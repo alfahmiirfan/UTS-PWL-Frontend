@@ -1,0 +1,26 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* font */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.bgLoginKiri {
+  background-image: url("../src/assets/bgLoginKiri.png");
+  background-size: cover;
+}
+
+.bgLoginKanan {
+  background-image: url("../src/assets/bgLoginKanan.png");
+  background-size: cover;
+}
+
+.space {
+  display: flex;
+  justify-content: space-between;
+}
